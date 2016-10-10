@@ -2,7 +2,7 @@
 % ENGR 16, M, W, 6:00-7:50
 % Kovacs
 % 10/10/16
-% 
+% gets data from a file, plots it and the user selects how they plan to find a line of best fit
 
 
 clc
@@ -232,7 +232,7 @@ end
     disp(['The maximum absolute error is :' ,num2str(absell)])
     disp(['The x coordinate is :', num2str(xfilter(locall))])
     
-%     This filter is used to find any values of 'logvaluey' is equal to y
+%     This filter is used to find any values of 'logvaluey' is equal to 0
 %     and ignores those numbers by putting it into filter2
     xfilter2=[];
     yfilter2=[];
